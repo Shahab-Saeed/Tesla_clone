@@ -1,0 +1,1012 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Poppins;
+    overflow-x: hidden;
+    color: white;
+}
+/* FOR NAV BAR */
+.nc1{
+    font-size: 25px;
+    letter-spacing: 2px;
+}
+
+.nc1:hover{
+    cursor: pointer;
+}
+
+.nc2{
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+    font-weight: 600;
+    font-size: 14px;
+    
+}
+
+.nc2a{
+    cursor: pointer;
+}
+.nc2b{
+    cursor: pointer;
+}
+.nc2c{
+    cursor: pointer;
+}
+.nc2d{
+    cursor: pointer;
+}
+.nc2e{
+    cursor: pointer;
+}
+.nc3{
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+    font-size: 22px;
+}
+
+.nc3a{
+    cursor: pointer;
+}
+.nc3b{
+    cursor: pointer;
+}
+
+.nc3c{
+    cursor: pointer;
+}
+nav{
+
+    padding: 0px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header{
+    margin-top: 10px;
+}
+
+/* FOR MAIN SECTION 1 */
+
+.sectiona{
+    background-image: url("IMAGES/Homepage-Model-3-Desktop-US.avif");
+    background-repeat: no-repeat;
+    background-position: center center ; 
+    background-size: cover;
+    height: 100vh;
+    width: 100vw; 
+    object-fit: cover;
+    display: flex;
+    flex-direction: column;
+}
+.sectiona main .c1{
+    font-size: 60px;
+    font-weight: bold;
+    margin-bottom: -25px;
+}
+
+.sectiona main .c2{
+    font-size: 28px;
+    font-weight: 500;
+ 
+    border-bottom: 0.5px solid white;
+    margin-bottom: -5px;
+}
+
+.sectiona main .c3{
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.sectiona main .c4a{
+    border: 2px solid blue;
+    padding: 8px;
+    border-radius: 5px ;
+    height: 48px;
+    width: 270px;
+    text-align: center;
+    background-color: blue  ;
+    
+}
+
+
+
+.sectiona main .c4b{
+    border: 2px solid white;
+    padding: 8px;
+    border-radius: 5px ;
+    height: 48px;
+    width: 270px;
+    text-align: center;
+    background-color: white  ;
+    color: black;
+}
+
+.sectiona .c4{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: center; 
+    align-items: center;
+}
+.sectiona .m1a{
+    display: flex;
+     flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+    margin-top: -30px;
+}
+.sectiona .m1{
+ 
+    display: flex;
+    height: 80vh;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+/* RESPONSIVENESS OF SECTION A */
+@media screen and (max-width:640px) {
+    .sectiona  main .m1a .c2{
+        font-size: 20px;
+        margin-top: 20px;
+        font-weight: 700;
+    }
+
+    .sectiona main  .c4{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .sectiona .c2{
+        text-align: center;
+        border: none;
+    }
+}
+
+
+/* FOR SECTION B  */
+.sectionb{
+    background-image: url("IMAGES/Homepage-Model-Y-Desktop-US-v2.avif");
+    background-repeat: no-repeat;
+    background-position: center center ; 
+    background-size: cover;
+    height: 105vh;
+    width: 100vw;
+    object-fit: cover;
+    display: flex;
+    flex-direction: column;
+}
+.sectionb .c1{
+    font-size: 60px;
+    font-weight: bold;
+    margin-bottom: -25px;
+}
+
+.sectionb .c2{
+    font-size: 28px;
+    font-weight: 500;
+ 
+    border-bottom: 0.5px solid white;
+    margin-bottom: -5px;
+}
+
+.sectionb .c3{
+     font-size: 16px;
+    font-weight: 500;
+}
+
+
+
+.sectionb .c4a{
+    border: 2px solid blue;
+    padding: 8px;
+    border-radius: 5px ;
+    height: 45px;
+    width: 270px;
+    text-align: center;
+    background-color: blue  ;
+}
+.sectionb .c4b{
+    border: 2px solid white;
+    padding: 8px;
+    border-radius: 5px ;
+    height: 45px;
+    width: 270px;
+    text-align: center;
+    background-color: white  ;
+    color: black;
+}
+
+.sectionb .c4{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: center; 
+    align-items: center;
+}
+.sectionb .m1a{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: -10px;
+}
+.sectionb .m1{
+    display: flex;
+    height: 90vh;
+    margin-top: 20px;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+/* RESPONSIVENESS OF SECTION B */
+@media screen and (max-width:640px) {
+    .sectionb   .m1a .c2{
+        font-size: 20px;
+        margin-top: 20px;
+        font-weight: 700;
+    }
+
+    .sectionb   .c4{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+    .sectionb .c2{
+        text-align: center;
+        border: none;
+    }
+}
+
+
+/* FOR SECTION C */
+
+.sectionc{
+    background-image: url("IMAGES/Homepage-Model-X-Desktop-US.avif");
+    background-repeat: no-repeat;
+    background-position: center center ; 
+    background-size: cover;
+    height: 105vh;
+    width: 100vw;
+    object-fit: cover;
+    display: flex;
+    flex-direction: column;
+}
+.sectionc .c1{
+    font-size: 50px;
+    font-weight: bolder;
+    margin-bottom: -25px;
+}
+
+.sectionc .c2{
+    font-size: 16px;
+    font-weight: 600;
+ 
+    border-bottom: 0.5px solid white;
+    
+
+}
+
+.sectionc .c2b{
+    margin-top: -1spx;
+    border-bottom: 0.5px solid white;
+    font-weight: 600;
+}
+
+.sectionc .c3{
+    font-size: 15px;
+    font-weight: 600;
+}
+
+
+
+.sectionc .c4a{
+    border: 2px solid blue;
+    padding: 8px;
+    border-radius: 5px ;
+    height: 45px;
+    width: 270px;
+    text-align: center;
+    background-color: blue  ;
+}
+.sectionc .c4b{
+    border: 2px solid white;
+    padding: 8px;
+    border-radius: 5px ;
+    height: 45px;
+    width: 270px;
+    text-align: center;
+    background-color: white  ;
+    color: black;
+}
+
+.sectionc .c4{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: center; 
+    align-items: center;
+}
+.sectionc .m1a{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+.sectionc .m1{
+    display: flex;
+    height: 100vh;
+    margin-top: -20px;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+
+}
+
+
+/* RESPONSIVENESS OF SECTION C */
+@media screen and (max-width:640px) {
+    .sectionc   .m1a .c2{
+        font-size: 20px;
+        margin-top: 20px;
+        font-weight: 700;
+    }
+
+    .sectionc   .c4{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+/* FOR SECTION D */
+
+.sectiond{
+    background-image: url("IMAGES/Homepage-Model-S-Desktop-US.avif");
+    background-repeat: no-repeat;
+    background-position: center center ; 
+    background-size: cover;
+    height: 105vh;
+    width: 100vw;
+    object-fit: cover;
+    display: flex;
+    flex-direction: column;
+}
+.sectiond .c1{
+    font-size: 50px;
+    font-weight: bolder;
+    margin-bottom: -20px;
+}
+
+.sectiond .c2{
+    font-size: 25px;
+    font-weight: 500;
+ 
+    border-bottom: 0.5px solid white;
+    margin-top: -3px;
+}
+
+.sectiond .c3{
+    font-size: 20px;
+    font-weight: 500;
+}
+
+
+
+.sectiond .c4a{
+    border: 2px solid blue;
+    padding: 8px;
+    border-radius: 5px ;
+    height: 45px;
+    width: 270px;
+    text-align: center;
+    background-color: blue  ;
+}
+.sectiond .c4b{
+    border: 2px solid white;
+    padding: 8px;
+    border-radius: 5px ;
+    height: 45px;
+    width: 270px;
+    text-align: center;
+    background-color: white  ;
+    color: black;
+}
+
+.sectiond .c4{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: center; 
+    align-items: center;
+}
+.sectiond .m1a{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+.sectiond .m1{
+    display: flex;
+    height: 95vh;
+    margin-top: 20px;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+/* RESPONSIVENESS OF SECTION D */
+@media screen and (max-width:640px) {
+    .sectiond   .m1a .c2{
+        font-size: 20px;
+        margin-top: 20px;
+        font-weight: 700;
+    }
+
+    .sectiond   .c4{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+/* FOR SECTION E */
+
+.sectione{
+    background-image: url("IMAGES/Homepage-Cybertruck-Desktop.avif");
+    background-repeat: no-repeat;
+    background-position: center center ; 
+    background-size: cover;
+    height: 105vh;
+    width: 100vw;
+    object-fit: cover;
+}
+.sectione .c4a{
+    border: 2px solid rgb(37, 37, 37);
+    padding: 8px;
+    border-radius: 5px ;
+    height: 45px;
+    width: 270px;
+    text-align: center;
+    background-color: rgb(37, 37, 37)  ;
+    color: rgb(206, 199, 199);
+}
+.sectione .c4b{
+    border: 2px solid rgb(37, 37, 37);
+    padding: 8px;
+    border-radius: 5px ;
+    height: 45px;
+    width: 270px;
+    text-align: center;
+    background-color: rgb(37, 37, 37)  ;
+    color: rgb(206, 199, 199);
+}
+
+.sectione .m1{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+ }
+
+.sectione .c4{
+display: flex;
+flex-direction: row;
+gap: 30px;
+justify-content: center;
+align-items: center;
+
+}
+
+
+/* RESPONSIVENESS OF SECTION E */
+@media screen and (max-width:640px) {
+    .sectione   .m1a .c2{
+        font-size: 20px;
+        margin-top: 20px;
+        font-weight: 700;
+    }
+
+    .sectione   .c4{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+
+
+/* FOR SeCTION F */
+.sectionf{
+    background-image: url("IMAGES/Homepage-SolarPanels-01-Desktop.avif");
+    background-repeat: no-repeat;
+    background-position: center center ; 
+    background-size: cover;
+    height: 105vh;
+    width: 100vw;
+    object-fit: cover;
+    display: flex;
+    flex-direction: column;
+}
+.sectionf .c1{
+    font-size: 50px;
+    font-weight: bolder;
+    margin-bottom: -20px;
+}
+
+.sectionf .c2{
+    font-size: 25px;
+    font-weight: 500;
+ 
+    border-bottom: 0.5px solid white;
+}
+
+.sectionf .c3{
+    font-size: 20px;
+    font-weight: 500;
+}
+
+
+
+.sectionf .c4a{
+    border: 2px solid blue;
+    padding: 8px;
+    border-radius: 5px ;
+    height: 45px;
+    width: 270px;
+    text-align: center;
+    background-color: blue  ;
+}
+.sectionf .c4b{
+    border: 2px solid white;
+    padding: 8px;
+    border-radius: 5px ;
+    height: 45px;
+    width: 270px;
+    text-align: center;
+    background-color: white  ;
+    color: black;
+}
+
+.sectionf .c4{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: center; 
+    align-items: center;
+}
+.sectionf .m1a{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+.sectionf .m1{
+    display: flex;
+    height: 90vh;
+    margin-top: 20px;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+/* RESPONSIVENESS OF SECTION F */
+@media screen and (max-width:640px) {
+    .sectionf .m1a .c2{
+        font-size: 20px;
+        margin-top: 20px;
+        font-weight: 700;
+    }
+
+    .sectionf   .c4{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+/* FOR SeCTION G */
+.sectiong{
+    background-image: url("IMAGES/Homepage-SolarRoof-Desktop-US.avif");
+    background-repeat: no-repeat;
+    background-position: center center ; 
+    background-size: cover;
+    height: 105vh;
+    width: 100vw;
+    object-fit: cover;
+    display: flex;
+    flex-direction: column;
+}
+.sectiong .c1{
+    font-size: 50px;
+    font-weight: bolder;
+    margin-bottom: -20px;
+}
+
+.sectiong .c2{
+    font-size: 25px;
+    font-weight: 500;
+ 
+    border-bottom: 0.5px solid white;
+}
+
+.sectiong .c3{
+    font-size: 20px;
+    font-weight: 500;
+}
+
+
+
+.sectiong .c4a{
+    border: 2px solid blue;
+    padding: 8px;
+    border-radius: 5px ;
+    height: 45px;
+    width: 270px;
+    text-align: center;
+    background-color: blue  ;
+}
+.sectiong .c4b{
+    border: 2px solid white;
+    padding: 8px;
+    border-radius: 5px ;
+    height: 45px;
+    width: 270px;
+    text-align: center;
+    background-color: white  ;
+    color: black;
+}
+
+.sectiong .c4{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: center; 
+    align-items: center;
+}
+.sectiong .m1a{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+.sectiong .m1{
+    display: flex;
+    height: 90vh;
+    margin-top: 20px;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+
+/* RESPONSIVENESS OF SECTION G */
+@media screen and (max-width:640px) {
+    .sectiong .m1a .c2{
+        font-size: 20px;
+        margin-top: 20px;
+        font-weight: 700;
+    }
+
+    .sectiong .c2{
+        text-align: center;
+        
+    }
+    
+    .sectiong .c4{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media screen and (min-width:375px) {
+    .sectiong .c2{
+        text-align: center;
+        border: none;
+    }
+}
+/* FOR SeCTION H */
+.sectionh{
+    background-image: url("IMAGES/Homepage-Powerwall-Desktop-US.avif");
+    background-repeat: no-repeat;
+    background-position: center center ; 
+    background-size: cover;
+    height: 105vh;
+    width: 100vw;
+    object-fit: cover;
+    display: flex;
+    flex-direction: column;
+}
+.sectionh .c1{
+    font-size: 50px;
+    font-weight: bolder;
+}
+
+.sectionh .c2{
+    font-size: 25px;
+    font-weight: 500;
+ 
+    border-bottom: 0.5px solid white;
+}
+
+.sectionh .c3{
+    font-size: 20px;
+    font-weight: 500;
+}
+
+
+
+.sectionh .c4a{
+    border: 2px solid blue;
+    padding: 8px;
+    border-radius: 5px ;
+    height: 45px;
+    width: 270px;
+    text-align: center;
+    background-color: blue  ;
+}
+.sectionh .c4b{
+    border: 2px solid white;
+    padding: 8px;
+    border-radius: 5px ;
+    height: 45px;
+    width: 270px;
+    text-align: center;
+    background-color: white  ;
+    color: black;
+}
+
+.sectionh .c4{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: center; 
+    align-items: center;
+}
+.sectionh .m1a{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+.sectionh .m1{
+    display: flex;
+    height: 90vh;
+    margin-top: 20px;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+/* RESPONSIVENESS OF SECTION H */
+@media screen and (max-width:640px) {
+    .sectionh .m1a .c2{
+        font-size: 20px;
+        margin-top: 20px;
+        font-weight: 700;
+    }
+
+    .sectionh .c2{
+        text-align: center;
+        
+    }
+    
+    .sectionh .c4{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+
+/* FOR SeCTION I */
+.sectioni{
+    background-image: url("IMAGES/Homepage-Accessories-Desktop-US.avif");
+    background-repeat: no-repeat;
+    background-position: center center ; 
+    background-size: cover;
+    height: 105vh;
+    width: 100vw;
+    object-fit: cover;
+    display: flex;
+    flex-direction: column;
+}
+.sectioni .c1{
+    font-size: 50px;
+    font-weight: bolder;
+}
+
+.sectioni .c2{
+    font-size: 25px;
+    font-weight: 500;
+ 
+    border-bottom: 0.5px solid white;
+}
+
+.sectioni .c3{
+    font-size: 20px;
+    font-weight: 500;
+}
+
+
+
+.sectioni .c4a{
+    border: 2px solid blue;
+    padding: 8px;
+    border-radius: 5px ;
+    height: 45px;
+    width: 270px;
+    text-align: center;
+    background-color: blue  ;
+}
+.sectioni .c4b{
+    border: 2px solid white;
+    padding: 8px;
+    border-radius: 5px ;
+    height: 45px;
+    width: 270px;
+    text-align: center;
+    background-color: white  ;
+    color: black;
+}
+
+.sectioni .c4{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: center; 
+    align-items: center;
+}
+.sectioni .m1a{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+.sectioni .m1{
+    display: flex;
+    height: 90vh;
+    margin-top: 20px;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+/* RESPONSIVENESS OF SECTION I */
+@media screen and (max-width:640px) {
+    .sectioni .m1a .c2{
+        font-size: 20px;
+        margin-top: 20px;
+        font-weight: 700;
+    }
+
+    .sectioni .c2{
+        text-align: center;
+        
+    }
+    
+    .sectioni .c4{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+/* FOOTER  */
+footer{
+    height: 94vh;
+    width: 100vw;
+    background-color: black;
+    color: rgb(95, 92, 92);
+    font-size: 11px;
+    
+}
+
+footer span{
+    text-decoration: underline white;
+}
+
+.c1{
+    padding-top: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2px;
+}
+.c2{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2px;
+}
+.c3{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2px;
+}
+.c4{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2px;
+}
+
+.c5{
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+    gap: 15px;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+/* RESPONSIVENESS OF FOOTER */
+@media screen and (max-width:640px) {
+    footer .c1{
+        font-size: 10px;
+       text-align: center;
+       margin-bottom: 15px;
+    }
+
+    footer .c2{
+        font-size: 10px;
+       text-align: center;
+       margin-bottom: 15px;
+    }
+
+    footer .c3{
+        font-size: 10px;
+       text-align: center;
+       margin-bottom: 15px;
+    }
+
+    footer .c4{
+        font-size: 10px;
+       text-align: center;
+       margin-bottom: 15px;
+    }
+  
+    footer .c5{
+text-align: center;
+    }
+   
+}
+
+
